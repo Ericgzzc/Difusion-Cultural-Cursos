@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!--CSS-->
+	<link href="css/main_2.css" rel="stylesheet" type="text/css" />
+	<link href="vendors/css/ui/jquery.ui.tabs.css" rel="stylesheet" type="text/css" />
+	<!--Javascripsts-->
+	<script type="text/javascript" src="vendors/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="vendors/js/shadowbox.js"></script>
+	<script type="text/javascript" src="vendors/js/idtabs.min.js"></script>
+	<script type="text/javascript" src="vendors/js/ui/jquery.ui.core.min.js"></script>
+	<script type="text/javascript" src="vendors/js/ui/jquery.ui.widget.min.js"></script>
+	<script type="text/javascript" src="vendors/js/ui/jquery.ui.tabs.min.js"></script>
+	
+	<title>Profesores | Cursos Tec</title>
+</head>
+<body class="semestre">
+	<div id="main">
+		<div id="content">
+			<div id="tabs" class="inner-940px cartelera">
+				<h1>Profesores <span> Arte </span> </h1>
+				<div class="calendario">
+					<div class="subnav">
+						<ul>
+							<li><a href="#carlosV" class="selected">Carlos Velázquez. (Pintura y Técnica de pastel 3D)</a></li>
+							<li><a href="#edgarS" class="selected">Edgar Segovia. (Fotografía digital experimental)</a></li>
+							<li><a href="#luisG" class="">Luis Fernando Gameros. (Arte Urbano/Graffiti)</a></li>
+							<li><a href="#jorgeF" class="">Jorge Flores. (Acuarela y Escultura en cerámica)</a></li>
+							
+						</ul>
+					</div>
+					
+				</div>
+
+				<div class="article article-cnt">
+					<div id="carlosV">
+						<h2> Carlos Velázquez. <span>(Pintura y Técnica de pastel 3D)</span> </h2>
+						<img src="images/maestros/CarlosVelazquez.jpg" width="280" height="400" class="" alt="CarlosVelazquez">
+						<p>
+							Participó como estudiante en la Escuela Nacional de Artes Plásticas (Antigua Academia de San Carlos) de la Universidad Nacional Autónoma de México, en las áreas de Pintura y Grabado. A lo largo de su vida profesional ha participado en más de cuarenta exposiciones colectivas  en lugares como el Museo Metropolitano de Monterrey, Casa de la Cultura de Monterrey, Auditorio San Pedro en Garza García, N.L. Así mismo, cuenta con más de catorce exposiciones individuales en el Palacio de Gobierno de Monterrey, en Barcelona, España, en la Galería Jean Jacques Fiorina en Celigny, Suiza, entre otros lugares.
+						</p>
+					</div>
+					<div id="edgarS">
+						<h2> Edgar Segovia. <span>(Fotografía digital experimental).</span> </h2>
+						<img src="images/maestros/maestro.jpg" width="280" height="400" class="" alt="EdgarSegovia">
+						<p>
+							Realizó la Maestría en Artes, Especialidad Estudios Visuales 2011, la Licenciatura en Lenguajes Audiovisuales, Especialidad en Fotografía 2006. Sus áreas de Interés son la Docencia en Artes y Humanidades, Comunicación y Producción Artística, en lo Administrativo, gestión de asuntos escolares y/o producción audiovisual. Como parte de su experiencia profesional, se ha desempeñado como docente en el Nivel Medio Superior (UANL, 2012), participado en el Foro de Asuntos Estudiantiles (UANL, ITESM, 2012). En lo Administrativo como Coordinación De Difusión Cultural, Preparatoria #2 UANL, (2006-2014). A fin de especializarse  ha tomado los siguientes Cursos: Auditoria y Procesos de Calidad Norma ISO 9000-2008. TUV. 2009; Creación de la Malla Curricular en el Nivel Superior (UANL, 2009); II Simposio de Estudios Visuales (CONARTE, UANL 2008).
+
+						</p>
+					</div>
+					<div id="luisG">
+						<h2> Luis Fernando Gameros. <span> (Arte Urbano/Graffiti)</span> </h2>
+						<img src="images/maestros/maestro.jpg" width="280" height="400" class="" alt="Arturo">
+						<p>
+							es un artista visual egresado de la carrera de Diseño Gráfico de la Universidad Metropolitana de Monterrey, ha participado en eventos como el Forum internacional de las culturas en Monterrey, el festival urbano Callegenera, así como ha participado en festivales en Puebla, Querétaro y Distrito Federal, actualmente participa en diversos proyectos de la mano de diseñadores gráficos y otros artistas urbanos.
+
+						</p>
+					</div>
+						<div id="jorgeF">
+						<h2> Jorge Flores. <span>(Acuarela y Escultura en cerámica) </span> </h2>
+						<img src="images/maestros/JorgeFlores.jpg" width="280" height="400" class="" alt="JorgeFlores">
+						<p>
+							Durante 15 años trabajó en el campo aeroportuario en la Cd. de México,  posteriormente regresó a la ciudad de Monterrey donde trabaja de manera independiente ejerciendo su profesión desde hace 10 años. Con una formación basada en diversos talleres  y asumiendo un carácter autodidacta, se introduce en el medio artístico como Escultor, tiempo en el cual ha participado en más de treinta exposiciones colectivas y una individual en la Casa de la Cultura de San Pedro Garza García N.L. Ha ejecutado diversos proyectos de Escultura Monumental para nuevos Desarrollos Habitacionales y actualmente se desempeña como maestro en los Talleres de Arte de la Unidad Cultural Abasolo de la U.A.N.L. y en Artes Visuales del Departamento de Difusión Cultural del I.T.E.S.M., Campus Monterrey.
+
+						</p>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+	<div id="footer">
+		<div class="inner-940px">
+			<span class="left">Cursos Difusión Cultural Campus Monterrey Copyright 2014</span>
+			<span class="right bluemilk">Desarrollado por</span>
+		</div>
+	</div>
+</body>
+</html>
+
+<script type="text/javascript">
+		jQuery(document).ready(function($) {	
+			jQuery('ul.sf-menu').superfish({	
+		 		speed:       1,
+		 		autoArrows:    false,
+		 		cssArrows: false,
+		 		speedOut:      'normal',
+		 		delay:         200   
+			});
+		});
+	</script>
+    <script type="text/javascript">
+		$("#tabs").tabs({ 
+			show: { effect: "blind", duration: 800 }
+		});
+		// Function added to help reset map and container boundaries
+		 $("#tabs").bind('tabsshow',function(event, ui) {
+            window.location = ui.tab;
+        })
+	
+	</script>

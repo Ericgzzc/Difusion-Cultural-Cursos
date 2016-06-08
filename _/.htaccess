@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^difucursos\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.difucursos\.com$
+RewriteRule ^/?$ "http\:\/\/www\.difucursos\.com\.mx" [R=301,L]
+
